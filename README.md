@@ -35,8 +35,9 @@ Careful data preprocessing and transformation improved the performance of machin
 
 Feature selection was important for identifying the most relevant predictors of CHD risk.
 
-The XGBOOST (tuned) was chosen as the final prediction model due to its higH accuracy score.
+The XGBOOST (tuned) was chosen as the final prediction model due to its high accuracy score.
 
+The XGBOOST (untuned) was chosen as the final prediction model due to its high recall score.
 Techniques such as SMOTE were used to handle imbalanced data and improve model performance.
 
 This project provides a valuable example of how machine learning techniques can be applied to real-world problems to achieve positive business impact.

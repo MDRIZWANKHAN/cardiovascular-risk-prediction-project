@@ -13,6 +13,13 @@ we will break this endeavor into different parts-:
 - Performed Feature Manipulation to minimize feature correlation and create new features.
 - Applied VIF to avoid avoid overfitting.
 - ***Data Transformation*** i used log transformation to transform data because in some of the columns our data is positively skewed and for positively skewed lof transformation is used.
+- ***Data Scaling*** I used MinMaxScaler.
+- MinMaxScaler is a popular feature scaling technique used to transform numerical features to a common scale. It scales the features to a fixed range (usually between 0 and 1) based on the minimum and maximum values of the features.
+- ***Data Splitting*** I used 80:20 data splitting ratio.
+- When we split our data into training and test sets, we're essentially creating two different datasets that we can use to test our model's performance. This can help us identify any issues with our data, such as outliers or missing values, and make our model more robust to these issues.
+### ***ML Model Implementation***
+***ML Model - 1- Implementing Logistic Regression***
+ - I used Logistic regression algorithm to create the model. As I got not so good result.
 
 For predicting chd positive i used many ml algo like logistic regression,Random forest,KNN,SVC,Decision Tree,XGBOOST.
 For untuned XGBOOST-:

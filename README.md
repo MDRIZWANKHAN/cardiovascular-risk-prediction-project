@@ -1,8 +1,9 @@
 # cardiovascular-risk-prediction-project
 ### ***Project Summary*** 
 Now a days, heart disease prediction has been a major concept in recent world that is impacting the society towards health. The main concept is to identify the age group and heart rate using the Random forest algorithm. Our project tells how the heart rate and condition is estimated based on the inputs such as blood pressure and many more being provided by the user to a system. This is being much better way when it comes with others algorithms the implementation of RFA gives the better experience and provide accurate result. This helps in early prediction of the disease and is used in many ways, where as it is being provided with the input, in order to find the heart rate based on the health condition.
-Problem Statement
+### ***Problem Statement***
 The classification goal is to predict whether the patient has a 10-year risk of future coronary heart disease (CHD).
+
 For predicting chd positive i used many ml algo like logistic regression,Random forest,KNN,SVC,Decision Tree,XGBOOST.
 For untuned XGBOOST-:
 For training dataset, i found accuracy 78% and for test dataset 72%.

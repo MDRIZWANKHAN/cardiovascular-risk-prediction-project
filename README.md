@@ -39,7 +39,7 @@ we will break this endeavor into different parts-:
 
 - I used ***SHAP Values(shapley Additive explanations)*** method to find feature importance.
   
-###***Conclusion***
+### ***Conclusion***
 In conclusion, this project demonstrated the potential of machine learning techniques to accurately predict the 10-year risk of future coronary heart disease (CHD) in patients using data from an ongoing cardiovascular study. Key points from this project include:
     - Careful data preprocessing and transformation improved the performance of machine learning models and enabled more accurate predictions.
     - Feature selection was important for identifying the most relevant predictors of CHD risk.

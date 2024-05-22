@@ -22,7 +22,8 @@ we will break this endeavor into different parts-:
  - I used Logistic regression algorithm to create the model. As I got not so good result.
  - For testing dataset, i found precision of 93% and recall of 64% and f1-score of 76% for TenYearCHD negative.And I got precision of 24% and recall of 69% and f1-score of 36% for TenYearCHD Positive,and Accuracy is 65%.
  - Now,tryting to improving the score by using hyperparameter tuning technique.I used GridSearchCV it appears that hyperparameter tuning did not improve the performance of the Logistic Regression model on the test set.
-***ML Model - 1- RandomForestClassifier***
+   
+***ML Model - 2- RandomForestClassifier***
  - For training dataset, i found precision of 98% and recall of 94% and f1-score of 96% for TenYearCHD Negative.And I got precision of 94% and recall of 98% and f1-score of 96% for TenYearCHD Positive. Accuracy is 96%.
  - For testing dataset, i found precision of 89% and recall of 82% and f1-score of 86% for TenYearCHD Negative.And I got precision of 28% and recall of 41% and f1-score of 33% TenYearCHD Positive. Accuracy is 77%.
  - For training dataset, i found precision of 98% and recall of 94% and f1-score of 96% for TenYearCHD Negative.And I got precision of 94% and recall of 98% and f1-score of 96% for TenYearCHD Positive. Accuracy is 96%.

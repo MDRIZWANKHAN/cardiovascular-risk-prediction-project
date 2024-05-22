@@ -20,42 +20,30 @@ we will break this endeavor into different parts-:
 ### ***ML Model Implementation***
 ***ML Model - 1- Implementing Logistic Regression***
  - I used Logistic regression algorithm to create the model. As I got not so good result.
+ - For testing dataset, i found precision of 93% and recall of 64% and f1-score of 76% for TenYearCHD negative.And I got precision of 24% and recall of 69% and f1-score of 36% for TenYearCHD Positive,and Accuracy is 65%.
+ - Now,tryting to improving the score by using hyperparameter tuning technique.I used GridSearchCV it appears that hyperparameter tuning did not improve the performance of the Logistic Regression model on the test set.
+***ML Model - 1- RandomForestClassifier***
+ - For training dataset, i found precision of 98% and recall of 94% and f1-score of 96% for TenYearCHD Negative.And I got precision of 94% and recall of 98% and f1-score of 96% for TenYearCHD Positive. Accuracy is 96%.
+ - For testing dataset, i found precision of 89% and recall of 82% and f1-score of 86% for TenYearCHD Negative.And I got precision of 28% and recall of 41% and f1-score of 33% TenYearCHD Positive. Accuracy is 77%.
+ - For training dataset, i found precision of 98% and recall of 94% and f1-score of 96% for TenYearCHD Negative.And I got precision of 94% and recall of 98% and f1-score of 96% for TenYearCHD Positive. Accuracy is 96%.
+***Implemented KNeighborsClassifier,KNeighborsClassifier*** but did not get good result.
+- Finally got ***good result*** on ***XGBOOSTClassifier***
+- For ***untuned XGBOOST***-:
+      - For training dataset, i found accuracy 78% and for test dataset 72%.
+      - recall for test is 61%
+- For ***tuned XGBOOST***-:
+      - For training dataset i found acccuracy 99% and for test dataset 79%.
+      - recall= 33%%
+      - precision = 29%
 
-For predicting chd positive i used many ml algo like logistic regression,Random forest,KNN,SVC,Decision Tree,XGBOOST.
-For untuned XGBOOST-:
-For training dataset, i found accuracy 78% and for test dataset 72%.
-For tuned XGBOOST-:
-For training dataset i found acccuracy 99% and for test dataset 79%.
-recall= 33%%
-precision = 29%
-Accuracy(Test) = 79% For testing dataset, i found precision of 89% and recall of 82% and f1-score of 86% for TenYearCHD Negative.And I got precision of 28% and recall of 41% and f1-score of 33% TenYearCHD Positive. Accuracy is 77%.
-I would like to go with both Accuracy and recall.
-
-Accuracy help us to detect overall TenYearCHD Positive.
-
-In our model False Negative is important.
-
-To reduce false negative recall is important. Again false negative defines as model will predict that the patient dont have TenYearCHD but the Patient really have TenYearCHD. That will be an issue for us. So, for that case we have to minimize the false negative. we must improve the score of recall.
-I have choosen XGBoost model which is hyperparameter optimized. first of all I need accuracy thats why i choose Tuned XGBOOST.
-In our case False Negative is also important, so if recall is more important then for that case use Random forest because Random forest gives higher recall.
-I used SHAP Values(shapley Additive explanations) is a method based on cooperative game theory.
-
-It gives contribution of each feature value to the prediction for a given instance.
-
-In the summary plot we can see the top 12 columns and their impact on the prediction. The red color indicates that the value of the columns is high and blue color shows that the value of the column is low.
-
-For categorical columns, we have zeros and ones where zero is blue color and one is red color.
-
-Shap values are also displayed and the impact on the prediction is also shown. towards the right hand side, the impact is positive (increases the predicted value) and towards the left hand side, the impace is negative (decreases the predicted value).
+- I used ***SHAP Values(shapley Additive explanations)*** method to find feature importance.
+  
+###***Conclusion***
 In conclusion, this project demonstrated the potential of machine learning techniques to accurately predict the 10-year risk of future coronary heart disease (CHD) in patients using data from an ongoing cardiovascular study. Key points from this project include:
-
-Careful data preprocessing and transformation improved the performance of machine learning models and enabled more accurate predictions.
-
-Feature selection was important for identifying the most relevant predictors of CHD risk.
-
-The XGBOOST (tuned) was chosen as the final prediction model due to its high accuracy score.
-
-The XGBOOST (untuned) was chosen as the final prediction model due to its high recall score.
-Techniques such as SMOTE were used to handle imbalanced data and improve model performance.
-
-This project provides a valuable example of how machine learning techniques can be applied to real-world problems to achieve positive business impact.
+    - Careful data preprocessing and transformation improved the performance of machine learning models and enabled more accurate predictions.
+    - Feature selection was important for identifying the most relevant predictors of CHD risk.
+    - The XGBOOST (tuned) was chosen as the final prediction model due to its high accuracy score.
+    - The Logistic Regression(untuned) was chosen as the final prediction model due to its high Recall score.
+    - Techniques such as SMOTE were used to handle imbalanced data and improve model performance.
+    - This project provides a valuable example of how machine learning techniques can be applied to real-world problems to achieve positive business impact.
+Overall, this project highlights the importance of careful data preparation and analysis in machine learning projects. By taking the time to clean and transform the data, select relevant features, and choose an appropriate model, it is possible to achieve accurate predictions and support decision-making in a wide range of domains.

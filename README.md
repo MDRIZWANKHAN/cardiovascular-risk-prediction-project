@@ -42,10 +42,13 @@ we will break this endeavor into different parts-:
 ### ***Conclusion***
 In conclusion, this project demonstrated the potential of machine learning techniques to accurately predict the 10-year risk of future coronary heart disease (CHD) in patients using data from an ongoing cardiovascular study. Key points from this project include:
 
-    - Careful data preprocessing and transformation improved the performance of machine learning models and enabled more accurate predictions.
-    - Feature selection was important for identifying the most relevant predictors of CHD risk.
-    - The XGBOOST (tuned) was chosen as the final prediction model due to its high accuracy score.
-    - The Logistic Regression(untuned) was chosen as the final prediction model due to its high Recall score.
-    - Techniques such as SMOTE were used to handle imbalanced data and improve model performance.
-    - This project provides a valuable example of how machine learning techniques can be applied to real-world problems to achieve positive business impact.
-Overall, this project highlights the importance of careful data preparation and analysis in machine learning projects. By taking the time to clean and transform the data, select relevant features, and choose an appropriate model, it is possible to achieve accurate predictions and support decision-making in a wide range of domains.
+- Careful data preprocessing and transformation improved the performance of machine learning models and enabled more accurate predictions.
+- Feature selection was important for identifying the most relevant predictors of CHD risk.
+- The XGBOOST (tuned) was chosen as the final prediction model due to its high accuracy score.
+- The Logistic Regression(untuned) was chosen as the final prediction model due to its high Recall score.
+- Techniques such as SMOTE were used to handle imbalanced data and improve model performance.
+- This project provides a valuable example of how machine learning techniques can be applied to real-world problems to achieve
+  positive business impact.
+Overall, this project highlights the importance of careful data preparation and analysis in machine learning projects.
+  By taking the time to clean and transform the data, select relevant features, and choose an appropriate model,
+  it is possible to achieve accurate predictions and support decision-making in a wide range of domains.

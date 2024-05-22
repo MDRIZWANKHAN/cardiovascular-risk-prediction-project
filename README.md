@@ -1,4 +1,4 @@
-# cardiovascular-risk-prediction-project
+# cardiovascular-risk-prediction-project ML Classification
 ![image](https://github.com/MDRIZWANKHAN/cardiovascular-risk-prediction-project/assets/125923064/a2f53071-3f99-4a7d-9bc4-174758815329)
 
 

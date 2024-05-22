@@ -27,12 +27,12 @@ we will break this endeavor into different parts-:
  - For training dataset, i found precision of 98% and recall of 94% and f1-score of 96% for TenYearCHD Negative.And I got precision of 94% and recall of 98% and f1-score of 96% for TenYearCHD Positive. Accuracy is 96%.
  - For testing dataset, i found precision of 89% and recall of 82% and f1-score of 86% for TenYearCHD Negative.And I got precision of 28% and recall of 41% and f1-score of 33% TenYearCHD Positive. Accuracy is 77%.
  - For training dataset, i found precision of 98% and recall of 94% and f1-score of 96% for TenYearCHD Negative.And I got precision of 94% and recall of 98% and f1-score of 96% for TenYearCHD Positive. Accuracy is 96%.
-***Implemented KNeighborsClassifier,KNeighborsClassifier*** but did not get good result.
-- Finally got ***good result*** on ***XGBOOSTClassifier***
-- For ***untuned XGBOOST***-:
+ - ***Implemented KNeighborsClassifier,KNeighborsClassifier*** but did not get good result.
+ - Finally got ***good result*** on ***XGBOOSTClassifier***
+ - For ***untuned XGBOOST***-:
       - For training dataset, i found accuracy 78% and for test dataset 72%.
       - recall for test is 61%
-- For ***tuned XGBOOST***-:
+ - For ***tuned XGBOOST***-:
       - For training dataset i found acccuracy 99% and for test dataset 79%.
       - recall= 33%%
       - precision = 29%

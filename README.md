@@ -7,7 +7,12 @@ The classification goal is to predict whether the patient has a 10-year risk of 
 we will break this endeavor into different parts-:
 ### ***EDA***
 - In this i have created different charts like Bar, Kde, Histogram, Box, Heatmap and Pair Plot for getting insights from the data and based on that we can do some feature Engineering.
-- 
+- I also performed Hypothesis Testing based on our findings.
+### ***Feature Engineering & Data Pre-processing***
+- In this i Handled Missing Values, Outliers, Categorical Encoding.
+- Performed Feature Manipulation to minimize feature correlation and create new features.
+- Applied VIF to avoid avoid overfitting.
+- ***Data Transformation*** i used log transformation to transform data because in some of the columns our data is positively skewed and for positively skewed lof transformation is used.
 
 For predicting chd positive i used many ml algo like logistic regression,Random forest,KNN,SVC,Decision Tree,XGBOOST.
 For untuned XGBOOST-:

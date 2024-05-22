@@ -1,5 +1,5 @@
 # cardiovascular-risk-prediction-project
-![image](https://github.com/MDRIZWANKHAN/cardiovascular-risk-prediction-project/assets/125923064/1b09b220-5426-4097-886e-4378ec0e3796)
+![image](https://github.com/MDRIZWANKHAN/cardiovascular-risk-prediction-project/assets/125923064/933fb670-d01b-44c6-b68c-1443a7b8e447)
 
 
 ### ***Project Summary*** 
